@@ -25,3 +25,5 @@ Follow the Instructions in the terminal
 Either type an existing username OR type NEW followed by a space, then create a new username
 
 if done using multiple clients each person can send messages to the server which will respond with the message back to each connected client
+
+If your port number 4999 is being used, change it to a free port in Client.java line #9 and Server.java in line #62
