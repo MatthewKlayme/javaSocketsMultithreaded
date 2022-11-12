@@ -6,10 +6,7 @@ import java.awt.*;
 
 public class Client{
     public static void main(String[]args) throws IOException{
-        // Socket s = new Socket("192.168.1.8", 4999);
-        Socket s = new Socket("192.168.68.1", 4999);
-        // Socket s = new Socket("10.1.10.206", 4999);
-        // Socket s = new Socket("192.168.194.253", 4999);
+        Socket s = new Socket("enter your IPv4 address here", 4999);
 
         ServerConnection listener = new ServerConnection(s);
 
